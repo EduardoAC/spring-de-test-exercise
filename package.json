@@ -4,16 +4,14 @@
   "description": "Interview challenge fetching, merge and display data",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node scripts/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EduardoAC/spring-de-test-exercise.git"
   },
-  "keywords": [
-    "spring",
-    "exercise"
-  ],
+  "keywords": ["spring", "exercise"],
   "author": "Eduardo Aparicio Cardenes",
   "license": "Apache-2.0",
   "bugs": {
@@ -21,6 +19,20 @@
   },
   "homepage": "https://github.com/EduardoAC/spring-de-test-exercise#readme",
   "devDependencies": {
-    "jest": "^22.4.3"
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "transformIgnorePatterns": ["node_modules"]
+  },
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2"
   }
 }
