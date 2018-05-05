@@ -1,4 +1,4 @@
-import get from '/utils/get.js';
+import get from '../utils/get.js';
 
 // Step 1: Fetch and merge data
 const fetchAndMerge = (urlA, urlB, transform) => {
