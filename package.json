@@ -1,0 +1,26 @@
+{
+  "name": "spring-de-test-exercise",
+  "version": "1.0.0",
+  "description": "Interview challenge fetching, merge and display data",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoAC/spring-de-test-exercise.git"
+  },
+  "keywords": [
+    "spring",
+    "exercise"
+  ],
+  "author": "Eduardo Aparicio Cardenes",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/EduardoAC/spring-de-test-exercise/issues"
+  },
+  "homepage": "https://github.com/EduardoAC/spring-de-test-exercise#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
